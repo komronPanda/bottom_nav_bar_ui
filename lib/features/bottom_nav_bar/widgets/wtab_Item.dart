@@ -7,6 +7,6 @@ TabItem WTabItem({required String title, required String iconPath}){
   return TabItem(
     activeIcon: WActiveIcon(title: title, icon: iconPath),
     icon: WIcon(icon: iconPath),
-    title: 'Home',
+    title: title,
   );
 }
