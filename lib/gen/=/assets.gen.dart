@@ -20,6 +20,9 @@ class $AssetsIconsGen {
   /// File path: assets/icons/home_icon.svg
   SvgGenImage get homeIcon => const SvgGenImage('assets/icons/home_icon.svg');
 
+  /// File path: assets/icons/notification_icon.svg
+  SvgGenImage get notificationIcon => const SvgGenImage('assets/icons/notification_icon.svg');
+
   /// File path: assets/icons/statistics_icon.svg
   SvgGenImage get statisticsIcon => const SvgGenImage('assets/icons/statistics_icon.svg');
 
@@ -27,7 +30,7 @@ class $AssetsIconsGen {
   SvgGenImage get userIcon => const SvgGenImage('assets/icons/user_icon.svg');
 
   /// List of all assets
-  List<SvgGenImage> get values => [chatIcon, homeIcon, statisticsIcon, userIcon];
+  List<SvgGenImage> get values => [chatIcon, homeIcon, notificationIcon, statisticsIcon, userIcon];
 }
 
 class Assets {

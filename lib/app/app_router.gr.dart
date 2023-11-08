@@ -9,15 +9,15 @@
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:auto_route/auto_route.dart' as _i6;
-import 'package:bottom_nav_bar_ui/features/noname/presentation/page/noname_page.dart'
+import 'package:bottom_nav_bar_ui/features/bottom_nav_bar/noname_page.dart'
     as _i1;
-import 'package:bottom_nav_bar_ui/features/noname/presentation/page/pages/chat_page.dart'
+import 'package:bottom_nav_bar_ui/features/chat/presentation/pages/chat_page.dart'
     as _i2;
-import 'package:bottom_nav_bar_ui/features/noname/presentation/page/pages/home_page.dart'
+import 'package:bottom_nav_bar_ui/features/home/presentation/pages/home_page.dart'
     as _i3;
-import 'package:bottom_nav_bar_ui/features/noname/presentation/page/pages/profile_page.dart'
+import 'package:bottom_nav_bar_ui/features/profile/presentation/pages/profile_page.dart'
     as _i4;
-import 'package:bottom_nav_bar_ui/features/noname/presentation/page/pages/statistics_page.dart'
+import 'package:bottom_nav_bar_ui/features/statistics/presentation/pages/statistics_page.dart'
     as _i5;
 
 abstract class $AppRouter extends _i6.RootStackRouter {
